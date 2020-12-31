@@ -1,10 +1,8 @@
 import React from 'react'
-const Enalaces ={
-  "title": "react desde cero"
-}
-const Enlaces = props => (
+
+const Enlaces = ({title}) => (
       <li className="nav-item active">
-        <a className="nav-link" href="#">{props.title} <span class="sr-only">(current)</span></a>
+        <a className="nav-link" href="#">{title} <span className="sr-only">(current)</span></a>
       </li>
 )
 export default Enlaces

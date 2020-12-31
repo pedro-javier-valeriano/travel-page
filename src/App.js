@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './index.css';
 import { Fragment } from 'react';
 import Enlaces from './enlaces';
+import Fotos from './fotos';
 
 const App = () => (
   <Fragment>
@@ -28,18 +29,13 @@ const App = () => (
 
 <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
   <div className="carousel-inner">
-    <div className="carousel-item active">
-        <img src="./images/imagen1.jpg" className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src="./images/imagen2.jpg" className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src="./images/imagen3.jpg" className="d-block w-100" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src="./images/imagen4.jpg" className="d-block w-100" alt="..."/>
-    </div>
+  <div className="carousel-item active">
+         <img src="./images/imagen1.jpg" className="d-block w-100" alt="cusco"/>
+   </div>
+      <Fotos title="cusco" image="./images/imagen2.jog"/> 
+      <Fotos title="puno" image= "./images/imagen3.jog"/> 
+
+      <Fotos title="puno" image= "./images/imagen4.jpg"/> 
   </div>
 </div>
  <footer>
@@ -51,6 +47,15 @@ const App = () => (
         </div>
     </div>
  </footer>
+
+ <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <small>Conoce a los</small>
+            <h2>Los oradores</h2>
+          </div>
+        </div>
+      </div>
   </Fragment>
 )
   
