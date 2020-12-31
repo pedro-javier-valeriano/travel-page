@@ -1,7 +1,7 @@
 import React from 'react'
  
  const Fotos =({image,title}) => (
-      <div className="carousel-item active">
+      <div className="carousel-item ">
          <img src={image} className="d-block w-100" alt={title}/>
        </div>
  )
