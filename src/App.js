@@ -29,13 +29,16 @@ const App = () => (
 <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-        <img src="images/images1.jpg" className="d-block w-100" alt="..."/>
+        <img src="./images/imagen1.jpg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="images/images1.jpg" className="d-block w-100" alt="..."/>
+      <img src="./images/imagen2.jpg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="./logo192.png" className="d-block w-100" alt="..."/>
+      <img src="./images/imagen3.jpg" className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src="./images/imagen4.jpg" className="d-block w-100" alt="..."/>
     </div>
   </div>
 </div>
