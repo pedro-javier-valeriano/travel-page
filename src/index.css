@@ -17,4 +17,13 @@ code {
   object-fit:cover;
   position: absolute;
 }
+.container-fluid {
+  margin-top: 1em;
+  background-color: #343a40;
+  color: white;
+}
+#place-time img {
+  max-width: 100%;
+}
+
 

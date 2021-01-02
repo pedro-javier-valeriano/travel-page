@@ -3,6 +3,7 @@ import './index.css';
 import { Fragment } from 'react';
 import Enlaces from './enlaces';
 import Fotos from './fotos';
+import Sanidad from './sanidad';
 
 const App = () => (
   <Fragment>
@@ -38,7 +39,64 @@ const App = () => (
       <Fotos title="puno" image= "./images/imagen4.jpg"/> 
   </div>
 </div>
- <footer>
+ 
+
+    <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <small>Conoce</small>
+            <h2>Nuestros destinos</h2>
+            <p>▼</p>
+          </div>
+        </div>
+    </div>
+ 
+ <section id="place-time">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-xs-12 col-lg-6 pl-0 pr-0">
+            <img src="./images/imagen1.jpg" alt="Place" />
+          </div>
+          <div className="col text-left mt-2 pb-4">
+            <h2>Cusco</h2>
+            <p className="lead">
+            Sicuani es una ciudad del sureste del Perú. Es la segunda localidad de mayor importancia a nivel poblacional del Departamento del Cusco, contando con una población estimada de 53 672 habitantes para el año 2015.1​ Es la capital de la provincia de Canchis desde el 29 de agosto de 1834. Sicuani se encuentra ubicada en el distrito del mismo nombre, el cual, además de esta ciudad, está formado por 30 comunidades campesinas, en su entorno rural
+            </p>
+            <a className="btn btn-primary" href="https://api.whatsapp.com/send?phone=<+51 930999510&text=https://api.whatsapp.com/send?phone=<+51 930999510&text=Hola%20lirio%20Esto%20es%20una%20prueba :)">Viajar »</a>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section id="place-time">
+      <div className="container-fluid">
+        <div className="row">
+        <div className="col text-left mt-2 pb-4">
+            <h2>Puno</h2>
+            <p className="lead">
+            Sicuani es una ciudad del sureste del Perú. Es la segunda localidad de mayor importancia a nivel poblacional del Departamento del Cusco, contando con una población estimada de 53 672 habitantes para el año 2015.1​ Es la capital de la provincia de Canchis desde el 29 de agosto de 1834. Sicuani se encuentra ubicada en el distrito del mismo nombre, el cual, además de esta ciudad, está formado por 30 comunidades campesinas, en su entorno rural
+            </p>
+            <a className="btn btn-primary" href="https://api.whatsapp.com/send?phone=<+51 930999510&text=Hola%20lirio%20Esto%20es%20una%20prueba :)">Viajar »</a>
+            
+          </div>
+          <div className="col-xs-12 col-lg-6 pl-0 pr-0">
+            <img src="./images/imagen3.jpg" alt="Place" />
+          </div>
+        
+        </div>
+      </div>
+    </section>   
+    
+    <div class="container">
+        <div class="row">
+
+          <Sanidad image="./images/sanidad1.svg" description="Desinfectarse las manos"/>
+          <Sanidad image="./images/sanidad1.svg" description="Desinfectarse las manos"/>
+          <Sanidad image="./images/sanidad1.svg" description="Desinfectarse las manos"/>
+         </div>
+      </div>
+    
+
+    <footer>
     <div className="container">
         <div className="row">
           <div className="col">
@@ -46,16 +104,7 @@ const App = () => (
           </div>
         </div>
     </div>
- </footer>
-
- <div class="container">
-        <div class="row">
-          <div class="col text-center text-uppercase">
-            <small>Conoce a los</small>
-            <h2>Los oradores</h2>
-          </div>
-        </div>
-      </div>
+ </footer> 
   </Fragment>
 )
   
