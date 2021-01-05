@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/travelpage/static/css/main.ef6651fa.chunk.css",
+    "main.js": "/travelpage/static/js/main.ec5bae59.chunk.js",
+    "main.js.map": "/travelpage/static/js/main.ec5bae59.chunk.js.map",
+    "runtime-main.js": "/travelpage/static/js/runtime-main.5bc08d7c.js",
+    "runtime-main.js.map": "/travelpage/static/js/runtime-main.5bc08d7c.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/travelpage/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.43130686.chunk.js": "/travelpage/static/js/2.43130686.chunk.js",
+    "static/js/2.43130686.chunk.js.map": "/travelpage/static/js/2.43130686.chunk.js.map",
+    "static/js/3.66d52ee0.chunk.js": "/travelpage/static/js/3.66d52ee0.chunk.js",
+    "static/js/3.66d52ee0.chunk.js.map": "/travelpage/static/js/3.66d52ee0.chunk.js.map",
+    "index.html": "/travelpage/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/travelpage/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.ef6651fa.chunk.css.map": "/travelpage/static/css/main.ef6651fa.chunk.css.map",
+    "static/js/2.43130686.chunk.js.LICENSE.txt": "/travelpage/static/js/2.43130686.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/travelpage/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bc08d7c.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.43130686.chunk.js",
+    "static/css/main.ef6651fa.chunk.css",
+    "static/js/main.ec5bae59.chunk.js"
+  ]
+}
