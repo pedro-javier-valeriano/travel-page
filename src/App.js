@@ -3,7 +3,7 @@ import './index.css';
 import { Fragment } from 'react';
 import Enlaces from './enlaces';
 import Fotos from './fotos';
-import Sanidad from './sanidad';
+
 
 const App = () => (
   <Fragment>
@@ -86,7 +86,7 @@ const App = () => (
       </div>
     </section>   
     
-    git
+    
 
     <footer>
     <div className="container">
