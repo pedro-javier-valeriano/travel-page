@@ -33,10 +33,10 @@ const App = () => (
   <div className="carousel-item active">
          <img src="./images/imagen1.jpg" className="d-block w-100" alt="cusco01"/>
    </div>
-      <Fotos title="cusco1" image="./images/imagen2.jpg"/> 
-      <Fotos title="puno1" image= "./images/imagen3.jpg"/> 
+      <Fotos title="cusco1" image="./images/imagen4.jpg"/> 
+      <Fotos title="puno1" image= "./images/grupomercedez1.jpg"/> 
 
-      <Fotos title="puno" image= "./images/imagen4.jpg"/> 
+      
   </div>
 </div>
  
@@ -55,7 +55,7 @@ const App = () => (
       <div className="container-fluid">
         <div className="row">
           <div className="col-xs-12 col-lg-6 pl-0 pr-0">
-            <img src="./images/imagen1.jpg" alt="Place" />
+            <img src="./images/imagen2 (2).jpg" alt="Place" />
           </div>
           <div className="col text-left mt-2 pb-4">
             <h2>Cusco</h2>
@@ -89,7 +89,7 @@ const App = () => (
     <div class="container">
         <div class="row">
 
-          <Sanidad image="./images/sanidad1.svg" description="Desinfectarse las manos"/>
+          <Sanidad image="./images/sanidad1.jpg" description="Desinfectarse las manos"/>
           <Sanidad image="./images/sanidad1.svg" description="Desinfectarse las manos"/>
           <Sanidad image="./images/sanidad1.svg" description="Desinfectarse las manos"/>
          </div>
