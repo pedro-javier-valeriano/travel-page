@@ -86,14 +86,6 @@ const App = () => (
       </div>
     </section>   
     
-    <div class="container">
-        <div class="row">
-
-          <Sanidad image="./images/sanidad1.jpg" description="Desinfectarse las manos"/>
-          <Sanidad image="./images/sanidad1.svg" description="Desinfectarse las manos"/>
-          <Sanidad image="./images/sanidad1.svg" description="Desinfectarse las manos"/>
-         </div>
-      </div>
     
 
     <footer>
